@@ -1,5 +1,3 @@
-```
-
 from bs4 import BeautifulSoup 
 import requests
 import re
@@ -59,5 +57,3 @@ html_repos = extract(page)
 repositories_data = transform(html_repos)
 csv = format(repositories_data)
 # print(csv)
-
-```
